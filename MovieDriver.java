@@ -24,7 +24,7 @@ public class MovieDriver {
 		
 		Scanner inpt = new Scanner(System.in);
 		Movie myMovie = new Movie();
-	//do {
+	do {
 		
 		
 		System.out.println("Enter the name of a movie");
@@ -39,12 +39,12 @@ public class MovieDriver {
 		myMovie.toString();
 		
 		
-	/*	System.out.println("Do you want to enter another? (y or n)");
+		System.out.println("Do you want to enter another? (y or n)");
 		inpt.nextLine();
 		answer = inpt.nextLine();
 		
 		
-		}while(answer.equalsIgnoreCase("Y"));*/
+		}while(answer.equalsIgnoreCase("Y"));
 	
 	System.out.println("Goodbye");
 	}
